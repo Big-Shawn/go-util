@@ -1,9 +1,5 @@
 package imap
 
-import (
-	"sync"
-)
-
 const CaseUpper = 1
 const CaseLower = 2
 
@@ -42,8 +38,5 @@ func changeKeyCaseUpper(key string) string {
 		}
 		newStr += string(v)
 	}
-	mutex := sync.Mutex{}
-	mutex.TryLock()
-	mutex.TryLock()
 	return newStr
 }
