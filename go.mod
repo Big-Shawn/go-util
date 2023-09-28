@@ -1,3 +1,3 @@
-module github.com/Big-Shawn/go-util
+module github.com/big-shawn/go-utils
 
-go 1.19
+go 1.18

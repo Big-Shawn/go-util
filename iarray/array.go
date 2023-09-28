@@ -1,6 +1,6 @@
 package iarray
 
-import "github.com/Big-Shawn/go-util/itype"
+import "github.com/big-shawn/go-utils/itype"
 
 func Sum[T itype.Numerical](arr []T) T {
 	var sum T
